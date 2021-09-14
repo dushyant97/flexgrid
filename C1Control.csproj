@@ -9,4 +9,7 @@
   <ItemGroup>
     <PackageReference Include="C1.AspNetCore.Mvc.ja" Version="3.0.20212.319" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="C:\Users\dushyant.sharma\Desktop\Bin1\FlexGrid_Summary\C1Control.gclicx" />
+  </ItemGroup>
 </Project>
