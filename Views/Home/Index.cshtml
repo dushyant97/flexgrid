@@ -1,0 +1,18 @@
+﻿@model IEnumerable<C1Control.Models.Country>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2> Flex Grid</h2>
+<div id="grid">
+
+    <c1-flex-grid id="flexGrid" auto-generate-columns="false" is-read-only="false" alternating-row-step="1" >
+        <c1-items-source source-collection="Model"></c1-items-source>
+        <c1-flex-grid-column binding="Id" header="Country ID" width="*" align="center"></c1-flex-grid-column>
+        <c1-flex-grid-column binding="CountryName" header="Country" width="*" align="center"></c1-flex-grid-column>
+        <c1-flex-grid-column binding="Downloads" header="Downloads" width="*" align="center"></c1-flex-grid-column>
+        <c1-flex-grid-column binding="Sales" header="Sales" width="*" align="center"></c1-flex-grid-column>
+        <c1-flex-grid-column binding="Amount" header="Amount" width="*" align="center"></c1-flex-grid-column>
+        <c1-flex-grid-column binding="Extra" header="Extra" width="*" align="center"></c1-flex-grid-column>
+    </c1-flex-grid>
+</div>
