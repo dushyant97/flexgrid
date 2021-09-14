@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj": {}
+    "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj": {
+    "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj",
+        "projectUniqueName": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj",
         "projectName": "C1Control",
-        "projectPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj",
+        "projectPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj",
         "packagesPath": "C:\\Users\\dushyant.sharma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\obj\\",
+        "outputPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dushyant.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,9 +43,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "C1.AspNetCore.Mvc": {
+            "C1.AspNetCore.Mvc.ja": {
               "target": "Package",
-              "version": "[3.0.20212.315, )"
+              "version": "[3.0.20212.319, )"
             }
           },
           "imports": [

@@ -4,6 +4,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)c1.aspnetcore.mvc\3.0.20212.315\buildTransitive\net5.0\C1.AspNetCore.Mvc.targets" Condition="Exists('$(NuGetPackageRoot)c1.aspnetcore.mvc\3.0.20212.315\buildTransitive\net5.0\C1.AspNetCore.Mvc.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.aspnetcore.mvc.ja\3.0.20212.319\buildTransitive\net5.0\C1.AspNetCore.Mvc.ja.targets" Condition="Exists('$(NuGetPackageRoot)c1.aspnetcore.mvc.ja\3.0.20212.319\buildTransitive\net5.0\C1.AspNetCore.Mvc.ja.targets')" />
   </ImportGroup>
 </Project>

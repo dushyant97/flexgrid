@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vh4PEHHiASYF3NcQ/8HejtUQqckMiY9MDdzzdO/n4a+Q/S9+8lO4oeT17m1gGSCeGKD88FJ6kA9971+nUW3CPA==",
+  "dgSpecHash": "fNFKV54RSEcCeA2u5Fq8kOhNbMXCCqjXvb62+t7VZXgHRY1AhLW2zn0OhYrTpVe0JwkFXibyG5ICBFfocgqyUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj",
+  "projectFilePath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dushyant.sharma\\.nuget\\packages\\c1.aspnetcore.mvc\\3.0.20212.315\\c1.aspnetcore.mvc.3.0.20212.315.nupkg.sha512",
+    "C:\\Users\\dushyant.sharma\\.nuget\\packages\\c1.aspnetcore.mvc.ja\\3.0.20212.319\\c1.aspnetcore.mvc.ja.3.0.20212.319.nupkg.sha512",
     "C:\\Users\\dushyant.sharma\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\dushyant.sharma\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\dushyant.sharma\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",

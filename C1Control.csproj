@@ -7,6 +7,6 @@
     <EmbeddedResource Include="GCDTLicenses.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="C1.AspNetCore.Mvc" Version="3.0.20212.315" />
+    <PackageReference Include="C1.AspNetCore.Mvc.ja" Version="3.0.20212.319" />
   </ItemGroup>
 </Project>

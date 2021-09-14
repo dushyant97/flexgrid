@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "C1.AspNetCore.Mvc/3.0.20212.315": {
+      "C1.AspNetCore.Mvc.ja/3.0.20212.319": {
         "type": "package",
         "dependencies": {
           "System.Data.Common": "4.1.0",
@@ -14,8 +14,13 @@
         "runtime": {
           "lib/net5.0/C1.AspNetCore.Mvc.dll": {}
         },
+        "resource": {
+          "lib/net5.0/ja/C1.AspNetCore.Mvc.resources.dll": {
+            "locale": "ja"
+          }
+        },
         "build": {
-          "buildTransitive/net5.0/C1.AspNetCore.Mvc.targets": {}
+          "buildTransitive/net5.0/C1.AspNetCore.Mvc.ja.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.0.1": {
@@ -216,25 +221,27 @@
     }
   },
   "libraries": {
-    "C1.AspNetCore.Mvc/3.0.20212.315": {
-      "sha512": "B5RBtneduplOMyw19M6Ig3p4QHiJyUFiCGgRR9JNcfOGZh5VbsiQKybgdqnt3xZIXwkDUTSMgiG1sFK6EGxO5w==",
+    "C1.AspNetCore.Mvc.ja/3.0.20212.319": {
+      "sha512": "Ko+CrC3u1v+36L0XDQWY89j2atHekldjwp57Df6ihca+2nJt/+qb4hGYDvfKeQB3sUIAljDKfDglx2LCh80KoQ==",
       "type": "package",
-      "path": "c1.aspnetcore.mvc/3.0.20212.315",
+      "path": "c1.aspnetcore.mvc.ja/3.0.20212.319",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "buildTransitive/net5.0/C1.AspNetCore.Mvc.targets",
-        "buildTransitive/netcoreapp3.1/C1.AspNetCore.Mvc.targets",
-        "c1.aspnetcore.mvc.3.0.20212.315.nupkg.sha512",
-        "c1.aspnetcore.mvc.nuspec",
+        "buildTransitive/net5.0/C1.AspNetCore.Mvc.ja.targets",
+        "buildTransitive/netcoreapp3.1/C1.AspNetCore.Mvc.ja.targets",
+        "c1.aspnetcore.mvc.ja.3.0.20212.319.nupkg.sha512",
+        "c1.aspnetcore.mvc.ja.nuspec",
         "docs/readme.md",
         "icon.png",
         "lib/net5.0/C1.AspNetCore.Mvc.dll",
         "lib/net5.0/C1.AspNetCore.Mvc.pdb",
         "lib/net5.0/C1.AspNetCore.Mvc.xml",
+        "lib/net5.0/ja/C1.AspNetCore.Mvc.resources.dll",
         "lib/netcoreapp3.1/C1.AspNetCore.Mvc.dll",
         "lib/netcoreapp3.1/C1.AspNetCore.Mvc.pdb",
         "lib/netcoreapp3.1/C1.AspNetCore.Mvc.xml",
+        "lib/netcoreapp3.1/ja/C1.AspNetCore.Mvc.resources.dll",
         "license.txt"
       ]
     },
@@ -1200,7 +1207,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C1.AspNetCore.Mvc >= 3.0.20212.315"
+      "C1.AspNetCore.Mvc.ja >= 3.0.20212.319"
     ]
   },
   "packageFolders": {
@@ -1209,11 +1216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj",
+      "projectUniqueName": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj",
       "projectName": "C1Control",
-      "projectPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\C1Control.csproj",
+      "projectPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\C1Control.csproj",
       "packagesPath": "C:\\Users\\dushyant.sharma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin\\FlexGrid_Summary\\obj\\",
+      "outputPath": "C:\\Users\\dushyant.sharma\\Desktop\\Bin1\\FlexGrid_Summary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dushyant.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1245,9 +1252,9 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "C1.AspNetCore.Mvc": {
+          "C1.AspNetCore.Mvc.ja": {
             "target": "Package",
-            "version": "[3.0.20212.315, )"
+            "version": "[3.0.20212.319, )"
           }
         },
         "imports": [
